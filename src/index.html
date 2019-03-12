@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+        <title>Photoshop World</title>
+        <script src="scripts/script.js"></script>
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>Регистрация анестезии</h1>
+    <FORM NAME="Patient">
+                <!-- Анкета -->
+        <TABLE>
+            <TR><TD><B>Фамилия:<B></TD>
+                <TD><INPUT class="input_surname" SIZE=20 onBlur="this.value=this.value.toUpperCase()"></TD>
+            </TR>
+            <TR><TD><B>Имя:<B></TD>
+                <TD><INPUT class="input_name" SIZE=20 onBlur="this.value=this.value.toUpperCase()"></TD>
+            </TR>
+            <TR><TD><B>Дата рождения:<B></TD>
+                <TD><INPUT type="date" class="input_birthDate" SIZE=3 VALUE="18"></TD>
+            </TR>
+            <TR><TD><B>Пол:<B></TD>
+                <TD>
+                    <select class="input_gender">
+                        <option value="Мужской">Мужской</option>
+                        <option value="Женский">Женский</option>
+                    </select>
+                </TD>
+            </TR>
+            <TR><TD><B>Номер истории болезни:<B></TD>
+                <TD><INPUT class="input_numberIB" SIZE=10></TD>
+            </TR>
+            <TR><TD><B>Дата анестезии:<B></TD>
+                <TD><INPUT type="date" class="input_anestDate" SIZE=10></TD>
+            </TR>
+            <TR><TD><B>Время анестезии(мин):<B></TD>
+                <TD><INPUT class="input_anestTimeMin" SIZE=10></TD>
+            </TR>
+            <TR><TD><B>Тип анестезии:<B></TD>
+                <TD>
+                    <select class="input_anestType">
+                        <option value="Местная">Местная</option>
+                        <option value="Общая">Общая</option>
+                    </select>
+                </TD>
+            </TR>
+        </TABLE>
+                <!-- Кнопки готовности и сброса -->
+        <INPUT class="button_complete" TYPE="button" VALUE="Готово" onclick="complete()">
+        <INPUT TYPE="reset" VALUE="Сброс">
+    </FORM>   
+    <div class="patients_wrapper">
+        <colgroup>
+            <col span="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+            <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+        </colgroup>
+        <table class="table_item">
+            <tr class="table_top">
+                <th class="number">№</th>
+                <th class="surname">Фамилия</th>
+                <th class="name">Имя</th>
+                <th class="birthDate">Дата рождения</th>
+                <th class="gender">Пол</th>
+                <th class="numberIB">Номер ИБ</th>
+                <th class="anestDate">Дата анестезии</th>
+                <th class="anestTimeMin">Длительность</th>
+                <th class="anestType">Тип</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

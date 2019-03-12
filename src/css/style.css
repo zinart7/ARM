@@ -1,0 +1,33 @@
+body{      
+    background-image: url(https://wallpapertag.com/wallpaper/full/4/8/9/404767-wallpaper-space-1920x1200-for-htc.jpg);
+  
+  /* Выравнивание картинки по центру */
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  /* Изменение размера картинки, в зависимости от экрана */
+  background-size: cover;
+  
+  background-color: #3D3D3D;
+}
+h1{
+    color: white;
+    position: center;
+}
+form{
+    color: white;
+}
+table{
+    border: 1px solid grey;
+    width: 100%;
+    color: white;
+}
+th{
+    border: 1px solid grey;
+}
+td{
+    border: 1px solid grey;
+}

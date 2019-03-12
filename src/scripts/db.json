@@ -1,0 +1,24 @@
+{
+    "patients":[
+        {
+            "surname": "РЫЖИКОВ",
+            "name": "ВАСИЛИЙ",
+            "birthDate": "03.07.1956",
+            "gender": "Мужской",
+            "numberIB": "52525",
+            "anestDate": "5.02.2019",
+            "anestTimeMin": "125",
+            "anestType": "Общая"
+        },
+        {
+            "surname": "РЫЖИКОВ",
+            "name": "ВАСИЛИЙ",
+            "birthDate": "03.07.1956",
+            "gender": "Мужской",
+            "numberIB": "52525",
+            "anestDate": "5.02.2019",
+            "anestTimeMin": "125",
+            "anestType": "Общая"
+        }
+    ]
+}
